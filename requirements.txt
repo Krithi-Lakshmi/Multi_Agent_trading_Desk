@@ -1,7 +1,0 @@
-fastapi
-uvicorn[standard]
-jinja2
-langgraph
-# Pinned below 1.0.0 — Starlette 1.0.0 removed the old TemplateResponse
-# signature and breaks templates.TemplateResponse(name, {"request": request}).
-starlette<1.0.0
